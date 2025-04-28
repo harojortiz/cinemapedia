@@ -156,8 +156,8 @@ class _ActorsByMovie extends ConsumerWidget {
                   borderRadius: BorderRadius.circular(15),
                   child: Image.network(
                     actor.profilePath,
-                    height: 130,
-                    width: 90,
+                    height: 110,
+                    width: 100,
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -165,7 +165,7 @@ class _ActorsByMovie extends ConsumerWidget {
                 Text(actor.name, maxLines: 2),
                 Text(
                   actor.character, // Character name
-                  maxLines: 2,
+                  maxLines: 1,
                   style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       overflow: TextOverflow.ellipsis),
